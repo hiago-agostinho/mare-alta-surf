@@ -1,0 +1,30 @@
+body {
+    padding-top: 0;
+    margin: 0;
+
+    .menu-topo {
+        padding: 20px;
+        display: flex;
+        justify-content: flex-end;
+    
+        background-color: #17222D;
+    
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+    
+            li {
+                display: inline;
+                padding-left: 30px;
+                margin-right: 20px;
+                color: #ffff;
+    
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
+  
