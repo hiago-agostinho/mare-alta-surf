@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
 body {
     padding-top: 0;
     margin: 0;
@@ -36,9 +38,21 @@ body {
     }
 
     .container {
+        font-family: "Alice", serif;
         position: relative;
         width: fit-content;
         display: inline-block;
+
+        h2 {
+            position: absolute;
+            top: 70%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+
+            font-size: 55px;
+            color: #ffff;
+        }
 
         .input-email {
             position: absolute;
@@ -55,7 +69,27 @@ body {
             outline: none;
         }
         .surf-home {
-            width: 1260px;
+            width: 1239px;
+        }
+
+        .button {
+            position: absolute;
+            top: 80%;
+            left: 85%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+
+            padding: 11px;
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px;
+            border: none;
+            width: 150px;
+            font-size: 14px;
+
+            background-color: red;
+            color: #ffff;
+            font-weight: bold;
+            
         }
     }
 }
