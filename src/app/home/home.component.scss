@@ -36,9 +36,26 @@ body {
     }
 
     .container {
+        position: relative;
+        width: fit-content;
+        display: inline-block;
+
+        .input-email {
+            position: absolute;
+            top: 80%;
+            left: 70%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+
+            border-radius: 5px;
+            width: 250px;
+            font-size: 15px;
+            padding: 10px;
+            border: none;
+            outline: none;
+        }
         .surf-home {
             width: 1260px;
-            // height: 400px;
         }
     }
 }
